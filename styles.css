@@ -1,0 +1,143 @@
+/* ===============================
+   GLOBAL STYLES
+================================*/
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+
+    background-image: url('images/have.jpg');
+    background-size: cover;
+    background-position: no-repeat;
+    background-attachment: fixed;
+}
+
+section{
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadows: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   NAVIGATION BAR
+================================*/
+nav {
+    background: #2c3e50;
+    padding: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   PAGE LAYOUT
+================================*/
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* ===============================
+   FORMS
+================================*/
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1a252f;
+}
+
+/* ===============================
+   TABLES
+================================*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #2c3e50;
+    color: white;
+}
+
+/* ===============================
+   BUTTONS
+================================*/
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-btn {
+    background: #3498db;
+    color: white;
+}
+
+.edit-btn {
+    background: #f39c12;
+    color: white;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+}

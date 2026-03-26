@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View All Contacts</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function showDetails() {
+            alert("This is a placeholder for viewing full employee details.");
+        }
+
+        function editContact() {
+            alert("Edit employee details (placeholder popup).");
+        }
+
+        function deleteContact() {
+            confirm("Are you sure you want to delete?");
+        }
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new-contact.html">New Contact</a></li>
+            <li><a href="view-contacts.html">View All Contacts</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>All Employee Contacts</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Tools</th>
+                </tr>
+              </thead>
+
+              <tr>
+                    <td>Ann Mutiga</td>
+                    <td>ann@gmail.com</td>
+                    <td>0790 123 789</td>
+                    <td>
+                        <button class="details-btn" onclick="showDetails()">Details</button>
+                        <button class="edit-btn" onclick="editContact()">Edit</button>
+                        <button class="delete-btn" onclick="deleteContact()">Delete</button>
+                    </td>
+                  </tr>
+
+                <tr>
+                    <td>Carren Nyaboke</td>
+                    <td>nyaboke@gmail.com</td>
+                    <td>0710 456 789</td>
+                    <td>
+                        <button class="details-btn" onclick="showDetails()">Details</button>
+                        <button class="edit-btn" onclick="editContact()">Edit</button>
+                        <button class="delete-btn" onclick="deleteContact()">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Cecilia Nyokabi Njoroge</td>
+                    <td>nyokabi@gmail.com</td>
+                    <td>0790 456 569</td>
+                    <td>
+                        <button class="details-btn" onclick="showDetails()">Details</button>
+                        <button class="edit-btn" onclick="editContact()">Edit</button>
+                        <button class="delete-btn" onclick="deleteContact()">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Charles Onyango</td>
+                    <td>charles@gmail.com</td>
+                    <td>0712 345 678</td>
+                    <td>
+                        <button class="details-btn" onclick="showDetails()">Details</button>
+                        <button class="edit-btn" onclick="editContact()">Edit</button>
+                        <button class="delete-btn" onclick="deleteContact()">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Christine Mogeni</td>
+                    <td>mogeni@gmail.com</td>
+                    <td>0741 239 087</td>
+                    <td>
+                        <button class="details-btn" onclick="showDetails()">Details</button>
+                        <button class="edit-btn" onclick="editContact()">Edit</button>
+                        <button class="delete-btn" onclick="deleteContact()">Delete</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+     <script src="main.js"></script>
+
+</body>
+</html>
